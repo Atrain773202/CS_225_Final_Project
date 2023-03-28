@@ -29,13 +29,13 @@ Data Structure: Priority Queue (Min-Heap and Set) \
  \
 Two data structures will be used to maintain the open and closed sets for the A* algorithm. The open set contains nodes that have been evaluated but not yet expanded, while the closed set contains nodes that have already been expanded. A priority queue (min-heap) will be used for the open set to quickly extract the node with the lowest total cost. A set data structure will be used for the closed set to efficiently check for node membership.
 
-**Deliverable 4: Path Reconstruction **
+**Deliverable 4: Path Reconstruction**
 
 Data Structure: Map (Associative Array)
 
 A map (associative array) will be used to store the parent of each node visited during the A* search. This data structure will allow efficient backtracking from the destination node to the starting node to reconstruct the shortest path once the destination is reached. \
  \
-**Deliverable 5: Charging Station Accessibility Metrics **
+**Deliverable 5: Charging Station Accessibility Metrics**
 
 Data Structure: Multi-dimensional Array (Matrix) \
  \
@@ -97,7 +97,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
     **Function Efficiency:** The target goal for the Big O efficiency of the A* search algorithm in time complexity is O(b^d), where b is the branching factor (average number of neighbors per node) and d is the depth of the shortest solution. In practice, the actual time complexity may be much lower, depending on the effectiveness of the heuristic function in guiding the search. The memory complexity for the algorithm is also O(b^d), as it may need to store all generated nodes in the worst case
 
 
-    **Testing Strategy: **
+    **Testing Strategy:**
 
 1. Validation on small Dataset: We will begin by testing the algorithm on a smaller, well-known dataset with known optimal paths. This will help us verify the correctness of the implementation and identify any potential issues in the basic logic of the algorithm
 2. Comparison with real-world routes: After validating the implementation on a smaller dataset, we will test the algorithm on the actual road network data from Los Altos Hills. We will compare the generated paths to real-world routes and known optimal paths, considering any real-world constraints, such as traffic conditions, road closures, or construction, that may affect the route selection.
