@@ -44,7 +44,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
 **Dataset Acquisition and Processing**
 
 
-    **Data Access**: The data for this project will be acquired from three sources: OpenstreetMap(OSM), the national renewable energy laboratory (NREL) Alternative fueling station locator for existing charging stations, and the California DMV for adoption rates.
+    Data Access: The data for this project will be acquired from three sources: OpenstreetMap(OSM), the national renewable energy laboratory (NREL) Alternative fueling station locator for existing charging stations, and the California DMV for adoption rates.
 
 
 
@@ -83,7 +83,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
     **	**
 
 
-    **Function Inputs: **Two primary inputs: the road network graph and the source and destination nodes.
+    Function Inputs: Two primary inputs: the road network graph and the source and destination nodes.
 
 
 
