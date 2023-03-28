@@ -78,10 +78,7 @@ Data Storage: The primary data structure for this project will be a weighted gra
 **Algorithms**
 
 
-    Academic Reference:https://jeffe.cs.illinois.edu/teaching/algorithms/notes
-
-
-    **	**
+Academic Reference:https://jeffe.cs.illinois.edu/teaching/algorithms/notes
 
 
 Function Inputs: Two primary inputs: the road network graph and the source and destination nodes.
